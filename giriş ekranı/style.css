@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+*:focus{
+    outline: none;
+}
+body{
+    background: url(https://w7.pngwing.com/pngs/413/139/png-transparent-books-background-books-retro-library.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.login{
+    margin: 165px auto;
+    width: 400px;
+}
+
+.app-title{
+    text-align: center;
+    color:rgb(0, 0, 0); 
+}
+.login-form{
+    text-align: center;
+}
+.control-group{
+    margin-bottom: 10px;
+}
+input{
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 300px;
+    transition: border .5s;
+}
+input:focus{
+    border: 2px solid #0c01a1;
+    box-shadow: none;
+}
+.btn{
+    border: 2px solid transparent;
+    background: #c4712d;
+    color: #14ac79;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.btn-hover{
+    background-color: #2980B9;
+}
